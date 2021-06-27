@@ -12,7 +12,7 @@ class SessionsController {
       password,
     });
 
-    res.json(user);
+    return res.json(user);
   }
 }
 
